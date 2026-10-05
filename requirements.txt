@@ -1,0 +1,11 @@
+torch>=2.4
+transformers>=4.45
+datasets>=3.0
+scikit-learn>=1.4
+numpy
+matplotlib
+sentencepiece
+tiktoken
+protobuf
+accelerate
+gradio>=5

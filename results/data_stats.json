@@ -1,0 +1,58 @@
+{
+ "seed": 13,
+ "train": {
+  "('dolly', 0)": 2681,
+  "('cnn_dailymail', 0)": 1361,
+  "('spml', 1)": 2115,
+  "('jackhhao', 0)": 456,
+  "('deepset', 1)": 178,
+  "('spml', 0)": 589,
+  "('deepset', 0)": 302,
+  "('jackhhao', 1)": 440
+ },
+ "val_n": 902,
+ "train_n": 8122,
+ "train_pos_frac": 0.336,
+ "test_sizes": {
+  "seen_deepset": {
+   "n": 116,
+   "pos": 60
+  },
+  "seen_jackhhao": {
+   "n": 262,
+   "pos": 139
+  },
+  "seen_spml": {
+   "n": 2383,
+   "pos": 1885
+  },
+  "unseen_gandalf_pos": {
+   "n": 999,
+   "pos": 999
+  },
+  "unseen_multi_pos": {
+   "n": 974,
+   "pos": 974
+  },
+  "unseen_llmail_pos": {
+   "n": 2400,
+   "pos": 2400
+  },
+  "benign_prompts": {
+   "n": 800,
+   "pos": 0
+  },
+  "benign_web": {
+   "n": 400,
+   "pos": 0
+  },
+  "benign_multi": {
+   "n": 600,
+   "pos": 0
+  },
+  "benign_email": {
+   "n": 500,
+   "pos": 0
+  }
+ }
+}
