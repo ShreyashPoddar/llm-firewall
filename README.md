@@ -2,6 +2,8 @@
 
 **🔗 [Live demo](https://huggingface.co/spaces/ShreyashPoddar/llm-firewall-demo)** (runs in your browser, no install) · **[Model on Hugging Face](https://huggingface.co/ShreyashPoddar/llm-firewall-deberta-v3-small)**
 
+📝 **Write-up:** [A small prompt-injection detector that catches injections hidden in emails, and where it still fails](https://www.lesswrong.com/posts/8oGjCgd5wGTihtuLk/a-small-prompt-injection-detector-that-catches-injections-1) (LessWrong)
+
 A small, fast classifier that flags **prompt-injection attacks** before an AI agent acts on them — including the harder, realistic case of **injections hidden inside documents an agent reads** (emails, web pages, retrieved text).
 
 **One-line result:** on indirect injection embedded in emails (the LLMail benchmark), this 142M-parameter model scores **F1 0.88** versus **0.57** for the widely-used open guard model `protectai/deberta-v3-base-prompt-injection-v2` — because the existing model, though strong on direct attacks, does not generalize to injections buried in content. On the attack types the existing model was trained for, it remains ahead. This repo reports both, honestly.
